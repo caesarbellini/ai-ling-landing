@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(180deg, #1d1a38 0%, #000 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: "Noto Sans SC", sans-serif;
+  color: white;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ailing {
+  margin: -55px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1035px;
+  height: 750px;
+}
+
+.ailingPic {
+  width: 687px;
+  height: 750px;
+}
+
+.txt {
+  position: absolute;
+  width: 390px;
+  height: 170px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 2px solid #fff;
+  padding: 15px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 110%;
+  font-weight: 400;
+}
+
+.txt1 {
+  background: rgba(37, 211, 102, 0.5);
+  right: 65%;
+  top: 35%;
+  color: #fff;
+}
+
+.txt1 p {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  font-size: 25px;
+  opacity: 50%;
+}
+
+.txt2 p {
+  position: absolute;
+  bottom: 0;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  font-size: 25px;
+  opacity: 50%;
+}
+
+.txt2 {
+  background: rgba(255, 255, 255, 0.7);
+  left: 65%;
+  top: 65%;
+  color: #222222;
+  text-align: right;
+}
+
+.txt1, .txt2 {
+    opacity: 0; /* Ocultar por defecto */
+    transform: translateY(20px); /* Mover un poco hacia abajo */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Transiciones para animación */
+}
+
+h2 {
+  margin-top: 65px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%; /* 44px */
+}
+
+.h2cont {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+}
+
+.wpBtn {
+  margin-top: 25px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 295px;
+  height: 90px;
+  border-radius: 100px;
+  background: #25d366;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-decoration: none;
+}
