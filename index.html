@@ -9,10 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap"
         rel="stylesheet" />
 </head>
-<script src="script.js"></script>
+
 <body>
     <div class="main">
         <h1>Ai Ling</h1>
@@ -33,8 +33,45 @@
             <img src="./assets/ri_whatsapp-fill.svg" alt="WhatsApp Icon" class="whatsapp-icon" />
             Lets talk!
         </a>
-        <p class="author">by Caesar Bellini</p>
+        <p class="author">By subscribing, you agree to receive messages from Ai Ling.</p>
+        <hr>
+
+        <div class="textSlideShow">
+            <div class="slide active">
+                <h3>Who is Ai Ling?</h3>
+                <p>Ai Ling is a friendly and intelligent virtual assistant designed to support and simplify users' lives in various ways. With extensive knowledge in technology, productivity, wellness, design, and personal development, Ai Ling is available 24/7 to answer questions, provide recommendations, and assist in decision-making. Ai Ling aims to create a warm and approachable experience, offering a safe space where users can receive accurate and valuable information for daily activities, learn new things, and easily resolve any questions.</p>
+            </div>
+            <div class="slide">
+                <h3>What can Ai Ling help me with?</h3>
+                <p>Ai Ling can assist with a variety of tasks, from organizing your daily schedule to answering questions about technology, wellness, productivity, and much more. She’s here to make life easier, more organized, and always interesting!</p>
+            </div>
+            <div class="slide">
+                <h3>How does Ai Ling ensure my information stays private?</h3>
+                <p>Ai Ling is designed with privacy in mind. She only uses information relevant to your questions and tasks, maintaining a secure and confidential interaction every time.</p>
+            </div>
+            <div class="nav-dots">
+                <button class="dot active" onclick="showSlide(0)"></button>
+                <button class="dot" onclick="showSlide(1)"></button>
+                <button class="dot" onclick="showSlide(2)"></button>
+            </div>
+        </div>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have questions, feel free to email us at <a href="mailto:imcaesarbellini@gmail.com">imcaesarbellini@gmail.com</a> or send us a message on <a href="https://wa.me/51960610835">WhatsApp</a>.</p>
+        </section>
+        
+        <section class="message-templates">
+            <p>Ai Ling may use pre-approved message templates for better service. For more details, refer to our <a href="message-policy.html">Message Policy</a>.</p>
+        </section>
+        <br>
+        <section>
+            <a href="privacy-policy.html">Privacy Policy</a> |
+            <a href="unsubscribe.html">Opt-Out</a>
+        </section>
+        
+        
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
